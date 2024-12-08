@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from '../../components/sidebar/sidebar.component';
+import { HeaderComponent } from "../../components/header/header.component";
 
 @Component({
   selector: 'app-alerts',
   templateUrl: './alerts.component.html',
   styleUrl: './alerts.component.css',
   standalone: true,
-  imports: [SidebarComponent, CommonModule],
+  imports: [SidebarComponent, CommonModule, HeaderComponent],
 })
 export class AlertsComponent {
   alerts = [

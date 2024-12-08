@@ -1,24 +1,20 @@
-/* Estiliza o container principal do dashboard */
 .dashboard-container {
   display: flex;
   height: 100vh;
   background-color: var(--gray-color);
 }
 
-/* Estiliza a área principal do conteúdo */
 .content {
   flex: 1;
-  padding: 55px;
+  padding: 20px;
   background-color: var(--white-color);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  margin-left: 180px; /* Garante que o conteúdo não fique embaixo da barra lateral */
+  margin: 20px 20px 110px 180px;
   display: flex;
   flex-direction: column;
 }
 
-/* Estiliza o cabeçalho do dashboard */
 .dashboard-header {
   display: flex;
   justify-content: space-between;
@@ -26,30 +22,26 @@
   margin-bottom: 20px;
 }
 
-/* Estiliza o botão de seleção (select) */
 select {
-  background-color: #007bff; /* Cor azul */
-  color: #fff;               /* Texto branco */
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 20px;       /* Bordas arredondadas */
-  padding: 10px 20px;        /* Espaçamento interno */
+  border-radius: 20px;
+  padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  appearance: none;          /* Remove a aparência padrão do sistema */
-  margin-bottom: 20px;       /* Adiciona espaçamento abaixo do botão azul */
+  appearance: none;
+  margin-bottom: 20px;
 }
 
-/* Estiliza o select ao passar o mouse */
 select:hover {
-  background-color: #0056b3; /* Azul mais escuro */
+  background-color: #0056b3;
 }
 
-/* Ajusta o tamanho para evitar deformações */
 select:focus {
   outline: none;
 }
 
-/* Estiliza o contêiner dos gráficos */
 .charts-container {
   flex: 1;
   display: flex;
@@ -60,10 +52,9 @@ select:focus {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-top: 10px; /* Adiciona espaçamento acima do gráfico */
+  margin-top: 10px;
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 768px) {
   .dashboard-container {
     flex-direction: column;
@@ -72,6 +63,6 @@ select:focus {
   .content {
     margin: 10px;
     padding: 15px;
-    margin-left: 0; /* Remove o deslocamento lateral em telas menores */
+    margin-left: 0;
   }
 }

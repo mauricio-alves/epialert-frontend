@@ -4,19 +4,34 @@
       <a routerLink="/"><img src="../../assets/images/logo.png" alt="Logo" class="logo" /></a>
     </li>
     <li>
-      <a routerLink="/home"><fa-icon [icon]="faHouse"></fa-icon> <span>Home</span></a>
+      <a routerLink="/home">
+        <fa-icon [icon]="faHouse"></fa-icon>
+        <span class="tooltip">Home</span>
+      </a>
     </li>
     <li>
-      <a routerLink="/dashboard"><fa-icon [icon]="faTh"></fa-icon> <span>Dashboard</span></a>
+      <a routerLink="/dashboard">
+        <fa-icon [icon]="faTh"></fa-icon>
+        <span class="tooltip">Dashboard</span>
+      </a>
     </li>
     <li>
-      <a routerLink="/geomonitor"><fa-icon [icon]="faMapLocationDot"></fa-icon> <span>GeoMonitor</span></a>
+      <a routerLink="/geomonitor">
+        <fa-icon [icon]="faMapLocationDot"></fa-icon>
+        <span class="tooltip">GeoMonitor</span>
+      </a>
     </li>
     <li>
-      <a routerLink="/alerts"><fa-icon [icon]="faUserGroup"></fa-icon> <span>Alerts</span></a>
+      <a routerLink="/alerts">
+        <fa-icon [icon]="faUserGroup"></fa-icon>
+        <span class="tooltip">Alerts</span>
+      </a>
     </li>
     <li>
-      <a routerLink="/settings"><fa-icon [icon]="faGear"></fa-icon> <span>Settings</span></a>
+      <a routerLink="/settings">
+        <fa-icon [icon]="faGear"></fa-icon>
+        <span class="tooltip">Settings</span>
+      </a>
     </li>
   </ul>
 </nav>

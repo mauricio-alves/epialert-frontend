@@ -7,7 +7,7 @@ import {
   faUserGroup,
   faMapLocationDot,
   faGear,
-  faBell, // Novo ícone para Alerts
+  faBell,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -15,7 +15,7 @@ import {
   standalone: true,
   imports: [RouterModule, FontAwesomeModule],
   templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.css'], // Correção: styleUrls em vez de styleUrl
+  styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent {
   faHouse = faHouse;
@@ -23,5 +23,5 @@ export class SidebarComponent {
   faUserGroup = faUserGroup;
   faMapLocationDot = faMapLocationDot;
   faGear = faGear;
-  faBell = faBell; // Novo ícone de Alerts
+  faBell = faBell;
 }

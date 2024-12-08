@@ -8,6 +8,7 @@ import { BarChartComponent } from '../../components/bar-chart/bar-chart.componen
 import { AreaChartComponent } from '../../components/area-chart/area-chart.component';
 import { PieChartComponent } from '../../components/pie-chart/pie-chart.component';
 import { StackedColumnChartComponent } from '../../components/stacked-column-chart/stacked-column-chart.component';
+import { HeaderComponent } from "../../components/header/header.component";
 
 @Component({
   selector: 'app-dashboard',
@@ -23,8 +24,9 @@ import { StackedColumnChartComponent } from '../../components/stacked-column-cha
     BarChartComponent,
     AreaChartComponent,
     PieChartComponent,
-    StackedColumnChartComponent
-  ]
+    StackedColumnChartComponent,
+    HeaderComponent
+]
 })
 export class DashboardComponent {
   selectedChartType: string = 'line'; // Define um tipo padrão para o gráfico
