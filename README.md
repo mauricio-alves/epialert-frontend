@@ -8,7 +8,7 @@ O objetivo é desenvolver o MVP do projeto final do Hackathon da ResTIC36. O pro
 
 1. Primeiro, clone este repositório;
 2. Abra com qualquer IDE;
-3. Abra o terminal e rode o comando `npm install`;
+3. Abra o terminal e rode o comando `npm install --legacy-peer-deps`;
 5. Em outro terminal, rode o comando `npm start`;
 6. Uma janela abrirá no seu navegador e a aplicação será executada.
 
